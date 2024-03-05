@@ -1,0 +1,3 @@
+[submodule "digits-recognition-app"]
+	path = digits-recognition-app
+	url = git@hf.co:bognix/digits-recognition-app
