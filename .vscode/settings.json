@@ -1,0 +1,23 @@
+{
+    "python.analysis.diagnosticSeverityOverrides": {
+       "reportMissingTypeStubs": "information",
+       "reportUnknownMemberType": "information",
+       "reportWildcardImportFromLibrary": "none"
+    },
+    "python.analysis.autoImportCompletions": true,
+    "pylint.args": [
+        "--disable=W0401",
+        "--disable=W0614",
+        "--disable=C0116",
+        "--disable=C0114",
+    ],
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ],
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off",
+        "editor.formatOnSave": false
+    }
+}
