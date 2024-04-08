@@ -1,8 +1,11 @@
 {
     "python.analysis.diagnosticSeverityOverrides": {
        "reportMissingTypeStubs": "information",
-       "reportUnknownMemberType": "information",
-       "reportWildcardImportFromLibrary": "none"
+       "reportUnknownMemberType": "none",
+       "reportWildcardImportFromLibrary": "none",
+       "reportUnknownArgumentType": "none",
+       "reportUnknownParameterType": "none",
+       "reportUnknownVariableType": "none"
     },
     "python.analysis.autoImportCompletions": true,
     "pylint.args": [
@@ -19,5 +22,7 @@
         "editor.formatOnType": true,
         "editor.wordBasedSuggestions": "off",
         "editor.formatOnSave": false
-    }
+    },
+    "python.defaultInterpreterPath": "python",
+    "python.terminal.activateEnvInCurrentTerminal": true
 }
