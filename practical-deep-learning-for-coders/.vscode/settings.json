@@ -6,5 +6,15 @@
       "name": "",
       "depth": 10
     }
-  ]
+  ],
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingTypeStubs": "none",
+    "reportWildcardImportFromLibrary": "none",
+    "reportUnknownMemberType": "none",
+    "reportUnknownArgumentType": "none",
+    "reportUnknownParameterType": "none",
+    "reportUnknownVariableType": "none",
+    "reportMissingParameterType": "none",
+    "reportUnknownLambdaType": "none"
+  }
 }
